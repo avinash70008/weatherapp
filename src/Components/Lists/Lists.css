@@ -1,0 +1,37 @@
+.daily-forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 28vh;
+  justify-content: center;
+  box-shadow: 3px 3px 3px 3px whitesmoke;
+}
+.box:hover {
+  border: 2px solid #3ab4f2;
+}
+.day {
+  font-weight: bold;
+}
+.night {
+  color: grey;
+  font-size: small;
+  margin-left: 2px;
+}
+.weather-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 45px;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.weather-icon > img {
+  width: 100%;
+  margin-left: 3px;
+}
